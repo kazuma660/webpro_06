@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>数合わせ</title>
+</head>
+<body>
+    <p>あなたが選んだ数字は<%= your %>です．</p>
+    <p>コンピュータが選んだ数字は<%= cpu %>です．</p>
+    <p>判定：<%= judgement %></p>
+    <p>現在<%= total %>回中<%= win %>回、数字が一致しています．</p>
+    <hr>
+    <form action="/kazu">
+        <input type="text" name="hand" required>
+        <label for="hand">次はどの数字を入れる？</label>
+        <input type="hidden" name="win" value="<%= win %>">
+        <input type="hidden" name="total" value="<%= total %>">
+        <input type="submit" values="じゃんけん　ポン">
+    </form>   
+</body>
+</html>
+
+
