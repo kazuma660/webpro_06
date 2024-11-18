@@ -40,7 +40,7 @@ git push
 
 ## app5.jsの中にある機能の説明
 
-###　 1. hello1,hello2について
+###　 1.hello1とhello2について
 
 #### ファイル一覧
 ファイル|説明|
