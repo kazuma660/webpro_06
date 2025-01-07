@@ -1,0 +1,31 @@
+.cover {
+    border-bottom: 1px solid #c0c0c0;
+    margin: 3px;
+}
+
+.name {
+    font-weight: bold;
+    color: blue;
+    width: 8em;
+}
+
+.mes {
+    margin-left: 30px;
+}
+
+.number {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.quote {
+    border-left: 3px solid gray;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.time {
+    font-size: 0.8em;
+    color: gray;
+    margin-left: 10px;
+}
+
