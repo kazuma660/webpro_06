@@ -8,7 +8,7 @@ let count = 1; // 番号の初期値
 
 document.querySelector('#post').addEventListener('click', () => {
     const name = document.querySelector('#name').value.trim();
-    const quote = document.querySelector('#quote').value.trim(); // 引用番号を取得
+    const quote = document.querySelector('#quote').value.trim(); // レス番号を取得
     const message = document.querySelector('#message').value.trim();
     const timestamp = new Date().toLocaleString(); // タイムスタンプを取得
 
@@ -22,7 +22,7 @@ document.querySelector('#post').addEventListener('click', () => {
         method: "POST",
         body: new URLSearchParams({
             name: name,
-            quote: quote || "", // 空の引用番号を許可
+            quote: quote || "", // 空のレス番号を許可
             message: message,
             timestamp: timestamp
         }),
